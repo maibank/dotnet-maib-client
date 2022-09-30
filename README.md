@@ -1,4 +1,4 @@
-#Moldova Agroindbank Payment .NET SDK
+#MAIB Payment .NET SDK
 #### maib-api
 [![N|Solid](https://www.maib.md/images/logo.svg)](https://www.maib.md)
 
@@ -19,10 +19,10 @@ CONTENTS OF THIS FILE
 INTRODUCTION
 ============
 
-The Moldova Agroindbank Payment .NET SDK is used to easily integrate the MAIB Payment into your project.
+The MAIB Payment .NET SDK is used to easily integrate the MAIB Payment into your project.
 Based on the .NET Core Libraries to connect and process the requests with the Bank server and the .net core logger library to log the requests responses.
 
-The Moldova Agroindbank Payment .NET SDK has 2 ways of payment.
+The MAIB Payment .NET SDK has 2 ways of payment.
  * One way is SMS Transaction (`RegisterSmsTransaction`). When the client's money transfers on the merchant account instantly when the user do the payment. This way is recommended use.
  * Another way is DMS Transaction (`RegisterDmsAuthorization`). When the client's money has been blocked on their account before you confirm that transaction. This way is mostly used in the case of the long shipping time.
 
