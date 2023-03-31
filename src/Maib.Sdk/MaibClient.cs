@@ -165,6 +165,7 @@ namespace Maib.Sdk
         {
             var request = new RevertTransactionResponseRequest
             {
+                Command = MaibCommands.RevertTransaction,
                 Amount = NormalizeAmount(amount),
                 TransactionId = transactionId
             };
@@ -185,7 +186,8 @@ namespace Maib.Sdk
         public async Task<RefundTransactionResponse> RefundTransactionAsync(string transactionId, decimal amount, CancellationToken cancellationToken = default)
         {
             var request = new RefundTransactionRequest
-            {
+            {   
+                Command = MaibCommands.RevertTransaction,
                 Amount = NormalizeAmount(amount),
                 TransactionId = transactionId
             };
